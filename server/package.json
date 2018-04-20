@@ -1,0 +1,25 @@
+
+{
+    "name": "tracr-server",
+    "version": "1.0.0",
+    "description": "tracr web application server",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Ben Cassidy",
+    "license": "ISC",
+    "devDependencies": {
+      "body-parser": "^1.15.2",
+      "express": "^4.14.0",
+      "mongoose": "^4.7.0"
+    },
+    "dependencies": {
+      "body-parser": "^1.15.2",
+      "express": "^4.14.1",
+      "mongoose": "^4.7.4",
+      "mongoose-paginate": "^5.0.3",
+      "passport": "^0.4.0",
+      "passport-http-bearer": "^1.0.1"
+    }
+  }
